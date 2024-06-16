@@ -1,0 +1,6 @@
+services:
+  backend:
+    container_name: be
+    image: registry.farid.studentdumbways.my.id/faridaslam/dmbackend:3.0
+    ports:
+      - "5001:5000"
